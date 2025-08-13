@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "The next-gen platform for creative expression and digital showcase. Decentralized, creator-empowered, and community-driven.",
   generator: "v0.app",
   icons: [
-    { rel: "icon", url: "/icon.ico?v=3" },
-    { rel: "shortcut icon", url: "/icon.ico?v=3" },
-    { rel: "apple-touch-icon", url: "/icon.ico?v=3" },
+    { rel: "icon", url: "/favicon.ico" },
+    { rel: "shortcut icon", url: "/favicon.ico" },
+    { rel: "apple-touch-icon", url: "/favicon.ico" },
   ],
 }
 
@@ -35,6 +35,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${pressStart2P.variable} ${orbitron.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+      </head>
       <body className="bg-white text-neutral-900 font-pixel antialiased">{children}</body>
     </html>
   )
