@@ -302,7 +302,7 @@ export default function Home() {
                 <div className="space-y-2">
                   <div className="flex gap-2">
                     <div className="flex-1 bg-gray-800 border border-orange-500/30 px-2 py-1">
-                      <div className="text-white/40 text-xs font-tech">Title: "Digital Dreams #001"</div>
+                      <div className="text-white/40 text-xs font-tech">Title: &quot;Digital Dreams #001&quot;</div>
                     </div>
                   </div>
                   <div className="flex gap-2">
