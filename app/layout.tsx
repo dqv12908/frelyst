@@ -21,9 +21,11 @@ export const metadata: Metadata = {
   description:
     "The next-gen platform for creative expression and digital showcase. Decentralized, creator-empowered, and community-driven.",
   generator: "v0.app",
-  icons: {
-    icon: "/icon.ico?v=2", // Force cache refresh
-  },
+  icons: [
+    { rel: "icon", url: "/icon.ico?v=3" },
+    { rel: "shortcut icon", url: "/icon.ico?v=3" },
+    { rel: "apple-touch-icon", url: "/icon.ico?v=3" },
+  ],
 }
 
 export default function RootLayout({
