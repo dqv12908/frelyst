@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "The next-gen platform for creative expression and digital showcase. Decentralized, creator-empowered, and community-driven.",
   generator: "v0.app",
   icons: {
-    icon: "/icon.ico",
+    icon: "/icon.ico?v=2", // Force cache refresh
   },
 }
 
