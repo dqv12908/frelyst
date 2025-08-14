@@ -356,7 +356,7 @@ export default function Home() {
                   <div className="bg-gradient-to-r from-white/10 to-transparent border-l-2 border-white/30 p-3">
                     <div className="flex justify-between items-center">
                       <div className="text-white text-xs font-tech">Adidas Future Collection</div>
-                      <div className="text-white/60 text-xs font-pixel">PENDING</div>
+                      <div className="text-orange-400 text-xs font-pixel">PENDING</div>
                     </div>
                     <div className="text-white/60 text-xs font-tech mt-1">850 participants • $32K volume</div>
                   </div>
@@ -380,9 +380,9 @@ export default function Home() {
             </div>
             <div className="space-y-6 lg:space-y-8 order-2 lg:order-2 scroll-animate fade-in-right">
               <div
-                className="w-16 h-16 lg:w-20 lg:h-20 bg-white"
+                className="w-16 h-16 lg:w-20 lg:h-20 bg-orange-500"
                 style={{
-                  clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)",
+                  clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)",
                 }}
               />
               <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-pixel text-orange-700 leading-tight break-words">BRAND AMPLIFICATION</h3>
@@ -605,7 +605,7 @@ export default function Home() {
                   { label: "INVESTORS", percent: "15%", color: "bg-gray-400", amount: "150M" },
                   { label: "LIQUIDITY", percent: "10%", color: "bg-orange-300", amount: "100M" },
                   { label: "PUBLIC", percent: "5%", color: "bg-gray-300", amount: "50M" },
-                  { label: "RESERVE", percent: "2%", color: "bg-gray-600", amount: "20M" },
+                  { label: "COMPLIANCE INCENTIVES", percent: "2%", color: "bg-gray-600", amount: "20M" },
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-2">
                     <div className={`w-3 h-3 ${item.color}`} />
