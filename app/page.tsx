@@ -97,7 +97,7 @@ export default function Home() {
             {/* CTA Button */}
             <Button 
               className="bg-orange-500 hover:bg-orange-600 text-black font-pixel px-6 py-2 rounded-none border-0"
-              onClick={() => window.open('https://docs.frelyst.app', '_blank')}
+              onClick={() => window.open('https://frelyst.gitbook.io/frelyst-docs/', '_blank')}
             >
               READ DOCS
             </Button>
@@ -134,6 +134,7 @@ export default function Home() {
               <Button
                 variant="outline"
                 className="border-2 border-orange-500 text-orange-500 font-pixel px-6 py-4 text-base hover:bg-orange-500 hover:text-black transition-colors bg-transparent"
+                onClick={() => window.open('https://frelyst.gitbook.io/frelyst-docs/', '_blank')}
               >
                 READ DOCS
               </Button>
@@ -840,7 +841,7 @@ export default function Home() {
           <div className="space-y-2">
             <div className="font-pixel text-orange-400 text-sm">RESOURCES</div>
             <ul className="font-tech text-sm space-y-1 text-neutral-300">
-              <li><a href="#" className="hover:text-orange-400">Docs</a></li>
+              <li><a href="https://frelyst.gitbook.io/frelyst-docs/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400">Docs</a></li>
               <li><a href="#" className="hover:text-orange-400">Blog</a></li>
               <li><a href="#" className="hover:text-orange-400">Support</a></li>
             </ul>
